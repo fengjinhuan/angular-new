@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<body ng-controller="pdd">
+    <header><a href="">{{name}}</a></header>
+    <section>
+        <div class="left">
+            <a href="#/">首页</a>
+            <a href="#/add" ng-click="addClick(arr.length)">增加</a>    
+        </div> 
+        <ul ng-view class="right">
+            
+        </ul>
+
+    </section>
+</body>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/directive.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/index.js"></script>
+</html>

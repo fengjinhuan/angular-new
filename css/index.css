@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    height: 100%;width: 100%;
+}
+header{
+    height: 100px;width: 100%;
+    background: #eee;font-size: 34px;
+    text-align: center;line-height: 100px;
+    color: darkorchid;
+}
+section{
+     margin-left: 200px;
+}
+.left{
+     height: 100%;width: 200px;
+     background:#999 ;
+     float: left;
+     margin-left:-200px;
+}
+.right{
+    height: 100%;
+    background: #888;
+}
+.left a{
+    display: block;
+    height: 50px;width: 100%;color: #fff;
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+    line-height: 50px;text-align: center;
+}
+.left a:hover{
+    background: #fff;color: #eee;
+    border-color: #eee;
+}
+.right{
+    box-sizing: border-box;
+    padding: 100px;
+}
+/*.right li{
+    width: 100%;
+}*/
+.right li a{
+    height: 50px;
+    width: 80%;float: left;
+    display: block;line-height: 50px;
+    font-size: 24px;color:#fff;
+    border-bottom: 1px solid #eee;
+}
+.right li span{
+    height: 100%;line-height: 50px;
+    float: right;
+    display: block;
+}
+.right a:hover{
+    padding-left: 20px;
+    color: #888;background: #fff
+}
+
+.text{
+    height: 50px;width: 100%;
+}
+.textarea{
+    height: 100px;width: 100%;
+    margin-top:40px; 
+}
+.addbtn{
+    padding:0 20px;font-size: 24px;
+    margin: 20px;
+    color: #fff;background: blueviolet;
+}
+.show_tit h1{text-align: center;}
+.show_tit span{display: block;text-align: center;margin: 20px 0;}
+.show_con{
+    line-height: 40px;
+}
+.edit_btn{cursor: pointer;
+    padding: 20px;margin: 20px auto;display: block;
+    font-size: 18px;background: cadetblue;color: #fff;
+
+}
